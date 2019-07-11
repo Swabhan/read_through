@@ -1,0 +1,15 @@
+{
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "env": {
+    "node": true
+  },
+  "extends": ["standard", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "handle-callback-err": 0,
+    "space-before-function-paren": "off"
+  }
+}
